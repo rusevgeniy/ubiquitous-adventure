@@ -1,0 +1,30 @@
+{
+  "name": "ubiquitous-adventure",
+  "description": "For me",
+  "env": {
+     "ENCRYPT": {
+      "description": "Method",
+      "value": "chacha20-ietf-poly1305"
+    },
+     "PASSWORD": {
+      "description": "Password",
+      "value": "5c301bb8-6c77-41a0-a606-4ba11bbab084"
+    },
+
+     "V2_Path": {
+      "description": "Path",
+      "generator": "secret"
+    },
+
+     "AppName": {
+      "description": "App Name",
+      "value": "no"
+    },
+
+    "QR_Path": {
+       "description": "Code",
+       "value": "/qr"
+     }
+  },
+  "stack": "container"
+ }
